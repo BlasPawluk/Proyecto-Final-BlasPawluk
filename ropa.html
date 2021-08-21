@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="normalize.css" />
     <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap" rel="stylesheet" />
     <title>Scoundrel Black Market</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
@@ -45,30 +43,15 @@
             <div>
                 <h1>
                     <a href="index.html" class="text-decoration-none , text-dark">
-                Scoundrel Black Market</a
-              >
-            </h1>
-          </div>
-          <div class="padre">
-            <a
-              href="index.html"
-              class="hijo1 , text-decoration-none , text-dark"
-              >Home</a
-            >
-            <a
-              href="nosotros.html"
-              class="hijo2 , text-decoration-none , text-dark"
-              >Nosotros</a
-            >
-            <a href="ropa.html" class="hijo3 , text-decoration-none , text-dark"
-              >Ropa</a
-            >
-            <a
-              href="juguetes.html"
-              class="hijo4 , text-decoration-none , text-dark"
-              >Juguetes</a
-            >
-          </div>
+                        Scoundrel Black Market</a>
+                </h1>
+            </div>
+            <div class="padre">
+                <a href="index.html" class="hijo1 , text-decoration-none , text-dark">Home</a>
+                <a href="nosotros.html" class="hijo2 , text-decoration-none , text-dark">Nosotros</a>
+                <a href="ropa.html" class="hijo3 , text-decoration-none , text-dark">Ropa</a>
+                <a href="juguetes.html" class="hijo4 , text-decoration-none , text-dark">Juguetes</a>
+            </div>
         </header>
     </div>
 
@@ -78,7 +61,7 @@
         </div>
         <div class="textleft">
             <div class="listaropa">
-                <li class="itemropa1"><b> Remera Darth Vader: $25 USD </b>
+                <div class="itemropa1"><b> Remera Darth Vader: $25 USD </b>
                     </p>
                     <img class="itemheader" src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/6720057111606?fmt=jpeg&qlt=90&wid=652&hei=652" width="150px" alt="" />
                     <div class="negrita">
@@ -87,18 +70,21 @@
                         <input type="radio" name="Size" value="Large" /><b> L</b> <br/>
                         <input type="checkbox" /> <b> Añadir al Carrito</b>
                     </div>
-                </li>
+                </div>
                 <br />
-                <li class="itemropa1">
+                <div class="itemropa1">
                     <b> Campera Sith: $50 USD </b>
                     </p>
                     <img src="https://4.bp.blogspot.com/-u7MXEy7Of9E/Wq6A3m6DQ9I/AAAAAAAA37o/IJByfhmxZY04gU2I86CiqQD8u6XWOdlCQCLcBGAs/s1600/l%25C3%25ADnea%2Bde%2Bropa%2Bde%2BStar%2BWars%2Bpara%2Bni%25C3%25B1os%2Bde%2Badidas.jpg" width="150px" alt="" />
-                    <div class="negrita">
-                        <input type="radio" name="size" value="Small" /> <b> S</b>
-                        <input type="radio" name="Size" value="Medium" /><b> M</b>
-                        <input type="radio" name="Size" value="Large" /><b> L</b> <br/>
-                        <input type="checkbox" /> <b> Añadir al Carrito</b>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">¿Que talle desea?</button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="S">S</a>
+                            <a class="dropdown-item" href="M">M</a>
+                            <a class="dropdown-item" href="L">L</a>
+                        </div>
                     </div>
+                </div>
                 </li>
                 <br />
                 <li class="itemropa1">
@@ -114,7 +100,7 @@
                     </div>
                 </li>
             </div>
-            <section class="formulario">
+            <section class="formulario , flex">
                 <div>
                     <h3 class="titulo">Dejanos tus datos para el envio</h3>
                 </div>
@@ -143,7 +129,7 @@
                     <input class="itemform2" type="number" rows="1"></input>
                 </div>
                 <div>
-                    <input type="submit" class="itemform2">
+                    <input type="submit" class="bg-warning , border-dark pd-2 text-dark">
                 </div>
         </div>
         </section>
@@ -157,14 +143,15 @@
                 </div>
                 <div class="itemfooter1">
                     <a href="index.html">Home</a></div>
-            <div class="itemfooter1">
-                <a href="nosotros.html">Nosotros</a></div>
-            <p class="itemfooter2">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates nobis et numquam adipisci ipsum accusamus ex laboriosam tempore, esse dolor!
-            </p>
-    </div>
-    </nav>
+                <div class="itemfooter1">
+                    <a href="nosotros.html">Nosotros</a></div>
+                <p class="itemfooter2">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates nobis et numquam adipisci ipsum accusamus ex laboriosam tempore, esse dolor!
+                </p>
+            </div>
+        </nav>
     </footer>
+    <div class="container"></div>
 </body>
 
 </html>
