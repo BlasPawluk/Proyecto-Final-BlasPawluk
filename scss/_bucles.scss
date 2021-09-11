@@ -1,0 +1,20 @@
+@each $red,
+$color in $redes {
+    .btn--#{$red} {
+        background-color: $color;
+    }
+}
+
+@each $borde,
+$tamanio in $bordes {
+    .letra--#{$borde} {
+        font-size: $tamanio;
+    }
+}
+
+@each $texto,
+$valor in $textocentrado {
+    .posicion-- #{$texto} {
+        text-align: $valor;
+    }
+}

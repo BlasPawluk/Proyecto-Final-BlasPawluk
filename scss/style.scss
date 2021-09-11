@@ -1,0 +1,124 @@
+@import "../scss/_colores";
+@import "../scss/_padding";
+@import "../scss/_bucles";
+h1 {
+    display: inline-block;
+    color: $colorPrimario;
+    background-color: $colorFondo1;
+    padding: $paddingPrede;
+    margin: $marginPrede;
+    border: $borderPrede;
+    align-items: center;
+    a {
+        text-decoration: $sinDecorado;
+        color: black;
+    }
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient( 90deg, rgba(2, 0, 36, 1) 0%, rgba(45, 45, 205, 1) 64%, rgba(0, 212, 255, 1) 100%);
+}
+
+.claseRara1 {
+    padding: $paddingPrede;
+    margin: $marginPrede;
+    border: $borderPrede;
+    color: $colorTerciario;
+    background-color: $colorFondo3;
+    display: inline-block;
+    &__titulo {
+        padding: $paddingPrede;
+        margin: $marginPrede + 10;
+        border: $borderPrede;
+        color: $colorSecundario;
+        background-color: $colorFondo4;
+        display: inline-block;
+    }
+    &__texto {
+        padding: $paddingPrede;
+        margin: $marginPrede + 10;
+        border: $borderPrede;
+        color: $colorSecundario;
+        background-color: $colorTerciario;
+    }
+}
+
+.claseRara2 {
+    padding: $paddingPrede;
+    margin: $marginPrede * 4;
+    border: $borderPrede;
+    color: $colorTerciario;
+    background-color: $colorFondo2;
+    display: inline-block;
+    &__titulo {
+        padding: $paddingPrede;
+        margin: $marginPrede / 2;
+        border: $borderPrede;
+        color: $colorSecundario;
+        background-color: $colorFondo4;
+        display: inline-block;
+    }
+    &__texto {
+        padding: $paddingPrede;
+        margin: $marginPrede * 5;
+        border: $borderPrede + 10px;
+        color: $colorSecundario;
+        background-color: $colorTerciario;
+    }
+}
+
+.claseRara3 {
+    padding: $paddingPrede;
+    margin: $marginPrede;
+    border: $borderPrede;
+    color: $colorTerciario;
+    background-color: $colorFondo5;
+    display: inline-block;
+    &__titulo {
+        padding: $paddingPrede;
+        margin: $marginPrede + 10;
+        border: $borderPrede;
+        color: $colorSecundario;
+        background-color: $colorFondo1;
+        display: inline-block;
+    }
+    &__texto {
+        padding: $paddingPrede;
+        margin: $marginPrede + 10;
+        border: $borderPrede;
+        color: $colorSecundario;
+        background-color: $colorTerciario;
+    }
+}
+
+.claseRara4 {
+    padding: $paddingPrede;
+    margin: $marginPrede;
+    border: $borderPrede;
+    color: $colorTerciario;
+    background-color: $colorFondo1;
+    display: inline-block;
+    &__titulo {
+        padding: $paddingPrede;
+        margin: $marginPrede + 10;
+        border: $borderPrede;
+        color: $colorTerciario;
+        background-color: $colorFondo2;
+        display: inline-block;
+    }
+    &__texto {
+        padding: $paddingPrede;
+        margin: $marginPrede + 10;
+        border: $borderPrede;
+        color: $colorSecundario;
+        background-color: $colorFondo2;
+    }
+}
+
+.centrarTodo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
