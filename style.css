@@ -192,6 +192,7 @@ a {
     padding: 1.5fr;
     margin: 5px;
     border: solid black 2px;
+    text-decoration: none;
 }
 
 .itemfooter a {
