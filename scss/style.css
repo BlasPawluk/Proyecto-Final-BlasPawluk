@@ -1,0 +1,37 @@
+h1 {
+  display: inline-block;
+  color: black;
+  background-color: Green;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  align-items: center;
+}
+h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.claseRara1 {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  color: yellow;
+  background-color: blue;
+}
+.claseRara1__titulo {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  color: blue;
+  background-color: yellow;
+  display: inline-block;
+}
+.claseRara1__texto {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  width: 90px;
+  color: blue;
+  background-color: yellow;
+}/*# sourceMappingURL=style.css.map */

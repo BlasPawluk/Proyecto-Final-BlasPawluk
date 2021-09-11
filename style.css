@@ -1,0 +1,322 @@
+* {
+    font-family: "STIX Two Math", serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: linear-gradient(to top, #0e1c99, #000);
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    size: 1.5em;
+}
+
+#nav-wrapper {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+#nav-wrapper div {
+    border: 2px solid black;
+}
+
+#listaropa {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+.itemheader {
+    display: grid;
+    color: black;
+    background-color: rgb(233, 14, 14);
+    padding: 1.5fr;
+    margin: 5px;
+    border: solid black 2px;
+}
+
+.itemropa1 {
+    display: inline-block;
+    color: black;
+    background-color: rgb(233, 14, 14);
+    padding: 15px;
+    margin: 5px;
+    border: solid black 2px;
+}
+
+.textleft {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.animacionnav {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.toy1 {
+    display: inline-block;
+    color: black;
+    background-color: rgb(233, 14, 14);
+    padding: 15px;
+    margin: 5px;
+    border: solid black 2px;
+}
+
+.formulario {
+    display: inline-block;
+    color: black;
+    background-color: rgb(233, 14, 14);
+    padding: 20px;
+    margin: 20px;
+    border: solid black 2px;
+}
+
+.header {
+    display: inline-block;
+    align-items: baseline;
+    background-color: #ddd;
+    margin: 0px;
+    padding: 40px;
+    border: solid 2px;
+    text-decoration: none;
+}
+
+.titulo {
+    margin: 5px;
+    margin-left: 20px;
+    padding: 10px;
+    border: solid 2px;
+    width: fit-content;
+    background-color: #aaa;
+    color: rgb(238, 219, 0);
+}
+
+.listaropa {
+    margin: 5px;
+    margin-left: 20px;
+    padding: 10px;
+    border: solid 2px;
+    width: fit-content;
+    background-color: #aaa;
+    color: rgb(238, 219, 0);
+}
+
+.listatoy {
+    margin: 5px;
+    margin-left: 20px;
+    padding: 10px;
+    border: solid 2px;
+    width: fit-content;
+    background-color: #aaa;
+    color: rgb(238, 219, 0);
+}
+
+.textoprincipal {
+    display: inline-flex;
+    margin: 10px;
+    padding: 10px;
+    border: solid 2px;
+    width: 500px;
+    background-color: #aaa;
+    color: rgb(238, 219, 0);
+}
+
+.textoseparado {
+    background-color: green;
+    color: black;
+    font-size: 20px;
+}
+
+#footerpiola {
+    justify-content: center;
+    display: flex;
+    align-content: space-between;
+    text-align: left;
+    color: black;
+    background-color: rgb(11, 15, 77);
+    padding: 1.5fr;
+    margin: none;
+    border: solid black 1px;
+}
+
+.texto2 {
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    border: solid 2px;
+    width: 500px;
+    background-color: #aaa;
+    color: rgb(238, 219, 0);
+}
+
+.vidtitle {
+    display: flex;
+    margin: 5px;
+    width: 50px;
+    padding: 50px;
+    border: solid 2px black;
+    background-color: darkred;
+    color: black;
+    font-weight: 500;
+}
+
+.itemfooter1 {
+    justify-content: center;
+    display: flex;
+    align-content: space-between;
+    color: black;
+    background-color: #aaa;
+    padding: 1.5fr;
+    margin: 5px;
+    border: solid black 2px;
+}
+
+.itemfooter2 {
+    justify-content: center;
+    display: flex;
+    align-content: space-between;
+    color: black;
+    background-color: #fff;
+    padding: 1.5fr;
+    margin: 5px;
+    border: solid black 2px;
+    text-decoration: none;
+}
+
+.itemfooter a {
+    display: inline-flex;
+}
+
+.itemform1 {
+    display: inline-block;
+    color: black;
+    background-color: rgb(0, 255, 242);
+    padding: 1.5fr;
+    margin: 5px;
+    border: solid black 2px;
+}
+
+.itemform2 {
+    display: inline-block;
+    color: black;
+    background-color: white;
+    padding: 1.5fr;
+    margin: 5px;
+    border: solid black 2px;
+}
+
+
+/*Grid del Nav */
+
+.padre {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0px;
+    background: #aaa;
+}
+
+.hijo1 {
+    grid-area: 1 / 1 / 3 / 3;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0px;
+    background: #f35;
+    transition: transform 0.2s;
+}
+
+.hijo2 {
+    grid-area: 3 / 1 / 6 / 3;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0px;
+    background: #f35;
+    transition: transform 0.2s;
+}
+
+.hijo3 {
+    grid-area: 1 / 3 / 6 / 5;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0px;
+    background: #f35;
+    transition: transform 0.2s;
+}
+
+.hijo4 {
+    grid-area: 1 / 5 / 6 / 6;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0px;
+    background: #f35;
+    transition: transform 0.2s;
+}
+
+.hijo1:hover {
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+.hijo2:hover {
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+.hijo3:hover {
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+.hijo4:hover {
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+@keyframes cambiacolor {
+    from {
+        background-color: grey;
+    }
+    to {
+        background-color: black;
+    }
+}
+
+.cambiacolor {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    animation-name: cambiacolor;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-direction: alternate-reverse;
+}
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: row;
+    }
+    .header a {
+        font-size: 20px;
+    }
+}
