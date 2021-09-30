@@ -146,8 +146,7 @@ a {
     text-align: left;
     color: black;
     background-color: rgb(11, 15, 77);
-    padding: 1.5fr;
-    margin: none;
+    padding-bottom: 0px;
     border: solid black 1px;
 }
 
